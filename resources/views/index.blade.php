@@ -10,15 +10,17 @@
                <li data-target="#banner1" data-slide-to="0" class="active"></li>
                <li data-target="#banner1" data-slide-to="1"></li>
                <li data-target="#banner1" data-slide-to="2"></li>
+               <li data-target="#banner1" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
+               
                <div class="carousel-item active">
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="row">
                            <div class="col-md-7">
                               <div class="text-bg">
-                                 <h1> <span class="yellow"> Electrical </span> <br>Contractor</h1>
+                                 <h1> <span class="yellow"> Electrical 1 </span> <br>Contractor</h1>
                                  <p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem </p>
                                  <a class="read_more" href="#">Contact</a><a class="read_more" href="#">About Us</a>
                               </div>
@@ -27,13 +29,15 @@
                      </div>
                   </div>
                </div>
+
+
                <div class="carousel-item">
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="row">
                            <div class="col-md-7">
                               <div class="text-bg">
-                                 <h1> <span class="yellow">  Electrical </span> <br>Contractor</h1>
+                                 <h1> <span class="yellow">  Electrical 2 </span> <br>Contractor</h1>
                                  <p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem </p>
                                  <a class="read_more" href="#">Contact</a><a class="read_more" href="#">About Us</a>
                               </div>
@@ -42,13 +46,15 @@
                      </div>
                   </div>
                </div>
+
+
                <div class="carousel-item">
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="row">
                            <div class="col-md-7">
                               <div class="text-bg">
-                                 <h1> <span class="yellow"> Electrical </span> <br>Contractor</h1>
+                                 <h1> <span class="yellow"> Electrical 3 </span> <br>Contractor</h1>
                                  <p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem </p>
                                  <a class="read_more" href="#">Contact</a><a class="read_more" href="#">About Us</a>
                               </div>
@@ -57,6 +63,25 @@
                      </div>
                   </div>
                </div>
+
+
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-7">
+                              <div class="text-bg">
+                                 <h1> <span class="yellow"> Electrical 4 </span> <br>Contractor</h1>
+                                 <p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem </p>
+                                 <a class="read_more" href="#">Contact</a><a class="read_more" href="#">About Us</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+
             </div>
             <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
             <i class="fa fa-angle-left" aria-hidden="true"></i>

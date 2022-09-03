@@ -7,6 +7,7 @@ use App\Http\Controllers\MainSite\AboutPageController;
 use App\Http\Controllers\MainSite\ProjectPageController;
 use App\Http\Controllers\MainSite\TestimonialPageController;
 use App\Http\Controllers\MainSite\ContactPageController;
+use App\Http\Controllers\Admin\SliderController;
 
 
 /*
@@ -29,6 +30,10 @@ Route::get('/about', [AboutPageController::class, 'aboutPage'])->name('AboutPage
 Route::get('/project', [ProjectPageController::class, 'projectPage'])->name('ProjectPage');
 Route::get('/testimonial', [TestimonialPageController::class, 'testimonialPage'])->name('TestimonialPage');
 Route::get('/contact', [ContactPageController::class, 'contactPage'])->name('ContactPage');
+
+Route::get('/addSlider', [SliderController::class, 'addSlider'])->name('AddSlider');
+
+Route::post('/storeSlider', [SliderController::class, 'storeSlider'])->name('storeSlider');
 
 
 // Route::get('/', function () {
