@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Slider Content</h1>
-    <form action="{{ route('storeSlider') }}" method='POST'>
+    <form action="{{ route('StoreSlider') }}" method='POST'>
         @csrf
         <label for="heading1">Heading 1</label><br>
         <input type="text" id="heading1" name="heading1" value=""><br>

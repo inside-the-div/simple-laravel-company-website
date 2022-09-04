@@ -10,9 +10,10 @@ class HomePageController extends Controller
     public function homePage() {
 
         $sliders = Slider::all();
-        dd($sliders);
+        // dd($sliders);
         $pageTitle = "";
         $page_class = "";
-        return view('index',compact('pageTitle', 'page_class'));
+
+        return view('index',compact('pageTitle', 'page_class', 'sliders'));
     }
 }

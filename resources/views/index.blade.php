@@ -13,25 +13,38 @@
                <li data-target="#banner1" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
+            @php 
+            $i = 0;
+            @endphp   
+            @foreach ($sliders as $slide)
+               @php 
+               $i++;
+               @endphp   
                
+               @if ($i === 1)
                <div class="carousel-item active">
+               
+               @else
+               <div class="carousel-item">
+               
+               @endif
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="row">
                            <div class="col-md-7">
                               <div class="text-bg">
-                                 <h1> <span class="yellow"> Electrical 1 </span> <br>Contractor</h1>
-                                 <p>It is a long established fact that a reader will be distracted by the readablecontent of a page when looking at its layout. The point of using Lorem </p>
-                                 <a class="read_more" href="#">Contact</a><a class="read_more" href="#">About Us</a>
+                                 <h1> <span class="yellow"> {{ $slide->heading1 }} </span> <br>{{ $slide->heading2 }}</h1>
+                                 <p>{{ $slide->text }}</p>
+                                 <a class="read_more" href="{{ $slide->button_1_link }}">{{ $slide->button_1_label }}</a><a class="read_more" href="{{ $slide->button_2_link }}">{{ $slide->button_2_label }}</a>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
+               @endforeach
 
-
-               <div class="carousel-item">
+               <!-- <div class="carousel-item">
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="row">
@@ -79,7 +92,7 @@
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> -->
 
 
             </div>

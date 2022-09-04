@@ -33,7 +33,12 @@ Route::get('/contact', [ContactPageController::class, 'contactPage'])->name('Con
 
 Route::get('/addSlider', [SliderController::class, 'addSlider'])->name('AddSlider');
 
-Route::post('/storeSlider', [SliderController::class, 'storeSlider'])->name('storeSlider');
+Route::post('/storeSlider', [SliderController::class, 'storeSlider'])->name('StoreSlider');
+Route::get('/editSlider/{id}', [SliderController::class, 'editSlider'])->name('EditSlider');
+Route::post('/updateSlider', [SliderController::class, 'updateSlider'])->name('UpdateSlider');
+Route::post('/deleteSlider', [SliderController::class, 'deleteSlider'])->name('DeleteSlider');
+
+
 
 
 // Route::get('/', function () {
